@@ -1,0 +1,394 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+nav {
+    height: 160px;
+}
+#navimg{
+    padding: 15px;
+    margin:-30px 25px;
+}
+nav h4 {
+    font-size: 120px;
+    font-family: 'Black Ops One', cursive;
+    text-shadow: 5px 6px 10px;
+    color: rgb(48, 3, 3);
+    font-weight: bolder;
+}
+
+h5 {
+    color: rgb(48, 3, 3);
+    font-weight: bolder;
+    margin-top: 0px;
+    font-size: 40px;
+    width: 100%;
+}
+
+h5 {
+    position: sticky;
+    top: 0;
+}
+
+/* content */
+.header h3 {
+    color: rgb(48, 3, 3);
+    font-size: 50px;
+    width: 900px;
+    margin-left: 400px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* types */
+section h2 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 100px;
+    font-weight: bolder;
+
+
+}
+
+.row1 p,
+.row1 ul li {
+    font-size: 25px;
+    padding: 20px;
+}
+
+/* left */
+.col {
+    display: flex;
+}
+
+.col img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1 h3 {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.col1 p {
+    float: left;
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10%;
+}
+
+/* right */
+
+.col2 {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.col3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.col3 h3 {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.col3 p {
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10%;
+}
+
+.col2 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.row img {
+    border-radius: 20px;
+    
+}
+.col-3 img:hover{
+    transform: scale(1.04);
+}
+/* table */
+.row3 {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+
+form {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+th {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.row3 button {
+    background-color: rgb(92, 53, 26);
+
+    color: aliceblue;
+    margin-left: 250px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px inset whitesmoke;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(220, 153, 60);
+
+
+}
+/* footer */
+footer {
+    color: rgb(48, 3, 3);
+}
+
+#hs {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 550px;
+    right: 50px;
+
+}
+
+
+
+/* media query */
+
+@media screen and (max-width:400px){
+   
+    *{
+        padding: 0;
+        margin: 0;
+
+    }
+nav{
+    width: 400px;
+    height: 150px;
+}
+   
+#navimg{width: 70px;
+height:120px;
+margin-top: -46px;
+}
+
+.navbar-brand h4{
+    font-size: 32px;
+    margin-left:-40px;
+}
+
+h5{
+    position:sticky;
+    top: 4px;
+    width: 400px;
+    z-index: 1;
+}
+
+.header h3{
+    width: 400px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#box{
+    width: 400px;
+    margin:auto;
+    padding: 0;
+    height: 380px;
+}
+
+#box p {
+    font-size: 15px;
+    text-align: justify;
+    margin:-31px;
+}
+
+/* types */
+#types{
+    height: 700px;
+}
+section h2 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 70px;
+    font-weight: bolder;
+
+
+}
+
+.row{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.row1 p,
+.row1 ul li {
+    font-size: 18px;
+    text-align: justify;
+    margin: 0;
+
+}
+
+#brand{
+    width: 400px;
+}
+.col,.col2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    margin-top: 10px;
+}
+.col img{
+    margin:auto;
+}
+.col1 h3,.col1 p{
+    text-align: justify;
+    font-size: 15px;
+    margin: auto;
+    padding:20px;
+}
+
+.col2 img{
+    position:absolute;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top:0px;
+
+
+}
+.col3 h3{
+    text-align: justify;
+    font-size: 20px;
+    margin: auto;
+    padding:20px;
+    margin-top: 300px;
+
+}
+.col3 p{
+    text-align: justify;
+    font-size: 15px;
+    margin: auto;
+    padding-right: 10px;
+}
+
+ .row{
+width:410px ;
+margin: 3px;
+
+
+}
+ .row .col-3 #img1{
+    width: 300px;
+    margin-left: -67px;
+    margin-bottom: 10px;
+ }
+ .row .col-3 #img2{
+    width: 300px;
+    margin-left: -147px;
+    margin-top: 330px;
+ }
+.row .col-3 #img3{
+    width: 300px;
+    margin-left: -226px;
+    margin-top: 660px;
+}
+
+
+.row3{
+    width: 400px;
+    padding:3px;
+}
+form{
+    margin: 10px;
+}
+th{text-align: justify;
+    padding: 10px;
+}
+tr #r1{
+    width: 120px;
+    padding: 0px;
+}
+.row3 button{
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+    margin-left:150px;
+}
+#contact{
+    width: 400px;
+    margin: 3px;
+    padding: 0;
+    border:2px rgb(89, 59, 4) ridge;
+    
+}
+ #icon{
+    margin-left:0;
+    padding: 10px;
+    margin-top: -20px;
+
+}
+ #reach{
+    margin-left:-30px;
+    width: 400px;
+    padding-left:50px;
+}
+ #address{
+    width: 400px;
+    padding-left: 50px;
+}
+#hs {
+    width: 30px;
+    height: 50px;
+    position: fixed;
+right-bottom:10px ;
+}
+ }
+ 
